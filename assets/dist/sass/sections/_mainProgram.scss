@@ -7,7 +7,7 @@
 
 @media screen and (max-width:768px) {
   .program {
-    background-image: url('../assets/images/patterns/Woah.png');
+    background-image: url('/Woah.png');
     background-size: cover;
     max-width: 100%;
     height: fit-content;
@@ -143,7 +143,7 @@
 @media screen and (min-width:768px) {
   .homepage{
   .program {
-    background-image: url('/assets/images/patterns/Woah.png');
+    background-image: url('/Woah.png');
     background-size: contain;
     width: 100%;
     height: fit-content;
