@@ -178,7 +178,7 @@
   .homepage .fade-image {
     width: 100%;
     height: 150px;
-    background-image: url("/assets/images/act/lawyertop.png");
+    background-image: url("../assets/images/act/lawyertop.png");
     opacity: 0.5;
     background-size: contain;
     z-index: 0;
@@ -234,7 +234,7 @@
     margin-bottom: 30px;
     position: relative;
     left: 15px;
-    background-image: url("/assets/images/act/textdecor.png");
+    background-image: url("../assets/images/act/textdecor.png");
     background-size: cover;
     -webkit-background-clip: text;
             background-clip: text;
@@ -589,7 +589,7 @@
 }
 @media screen and (max-width: 768px) {
   .program {
-    background-image: url("/assets/images/patterns/Woah.png");
+    background-image: url("../assets/images/patterns/Woah.png");
     background-size: cover;
     max-width: 100%;
     height: -moz-fit-content;
