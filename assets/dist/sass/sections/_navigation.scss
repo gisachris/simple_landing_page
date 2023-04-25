@@ -1,3 +1,10 @@
+//IMPORTS
+//import components
+@import '../components/variables';
+@import '../components/typography';
+@import '../components/placement';
+@import '../components/buttons';
+
 @media screen and (max-width:768px) {
   .nav-together{
     display: none;
@@ -20,19 +27,44 @@
 
   .ham-icon {
     display: block;
-    width: 30px;
+    width: 35px;
     height: auto;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-left: 13px;
     background-color: transparent;
-    position: absolute; 
-
+    position: absolute;
+    top: 30px;
+    left: 15px; 
   }
 }
 
 @media screen and (min-width:768px) {
-  .ham-icon {
-    display: none;
+  header {
+    .ham-icon {
+      display: none;
+    }
+  
+    .nav-together {
+      @include container-desk();
+      justify-self: center;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo-image {
+        width: 150px;
+      }
+
+      .nav-bar {
+        background-color: transparent;
+        @include nav-primary(1rem,60px);
+        justify-self: right;
+        font-weight: bold;
+      }
+
+      .nav-top-button {
+        @include button-left-top(1rem);
+      }
+    }
   }
-}
+  }

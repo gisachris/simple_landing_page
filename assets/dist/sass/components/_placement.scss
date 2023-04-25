@@ -22,3 +22,7 @@
   gap: $gap;
 }
 
+@mixin container-desk {
+  width: 80%;
+}
+

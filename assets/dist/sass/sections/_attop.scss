@@ -37,35 +37,37 @@
 }
 
 @media screen and (min-width:768px) {
-  .top {
-    background-color: $dark-color;
-    height: 30px;
-    width: 100%;  
-    display: flex;
-    justify-content: flex-end;
-    column-gap: 10px;
-  
-    .icon-top-1{
-      width: 10px;
-      height: auto;
-      margin-right: 10px;     
-    }
-  
-    .icon-top-2{
-      width: 19px;
-      height: auto;
-      margin-right: 10px;     
-    }
-  
-    .list-group-top{
-      @include list-horizontal(10px);
-      margin-right: 30px;
-  
-      .list-item {
-        @include d-font(1rem);
-        width: fit-content;
-        height: fit-content;
+  header {
+    .top {
+      background-color: $dark-color;
+      height: 30px;
+      width: 100%;  
+      display: flex;
+      justify-content: flex-end;
+      column-gap: 10px;
+    
+      .icon-top-1{
+        width: 10px;
+        height: auto;
+        margin-right: 10px;     
       }
-    }
-  }  
+    
+      .icon-top-2{
+        width: 19px;
+        height: auto;
+        margin-right: 10px;     
+      }
+    
+      .list-group-top{
+        @include list-horizontal(10px);
+        margin-right: 30px;
+    
+        .list-item {
+          @include d-font(1rem);
+          width: fit-content;
+          height: fit-content;
+        }
+      }
+    }  
+  }
 }
