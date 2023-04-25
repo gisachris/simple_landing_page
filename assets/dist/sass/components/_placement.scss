@@ -1,0 +1,24 @@
+//first list at the top of the page
+@mixin list-horizontal($space){
+  display: flex;
+  padding: 0;
+  margin: 0;
+  column-gap: $space;
+}
+
+@mixin list-vertical($space){
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  column-gap: $space;
+}
+
+@mixin program-spacing($column-gap,$gap){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: $column-gap;
+  gap: $gap;
+}
+

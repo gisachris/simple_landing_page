@@ -1,5 +1,42 @@
-$body : red;
+//IMPORTS
+//imports sections
+@import '../sass/sections/attop';
+@import '../sass/sections/navigation';
+@import '../sass/sections/homepage';
+@import '../sass/sections/mainProgram';
+//imports components
+@import '../sass/components/variables';
+@import '../sass/components/placement';
+@import '../sass/components/typography';
 
-h2 {
-  color: $body;
+//DEFAULTS 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav,
+button {
+  background-color: $primary-color;
+}
+
+.container-default {
+  margin: 0;
+  padding: 0px;
+}
+
+header {
+  position: relative;
+  z-index: 2;
 }

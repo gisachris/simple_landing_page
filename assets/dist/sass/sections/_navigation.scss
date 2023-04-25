@@ -1,0 +1,38 @@
+@media screen and (max-width:768px) {
+  .nav-together{
+    display: none;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 10px black;
+    background-color: white;
+    z-index: 3;
+
+    .logo-image {
+      width: 100px;
+      height: auto;
+    }
+
+    .nav-bar {
+      display: none;
+    }
+  }
+
+  .ham-icon {
+    display: block;
+    width: 30px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 13px;
+    background-color: transparent;
+    position: absolute; 
+
+  }
+}
+
+@media screen and (min-width:768px) {
+  .ham-icon {
+    display: none;
+  }
+}

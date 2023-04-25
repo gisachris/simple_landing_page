@@ -1,0 +1,17 @@
+//IMPORTS
+//import components
+@import '../components/variables';
+@import '../components/typography';
+
+@mixin button-primary($font,$font-weight){
+  background-color: $primary-color;
+  padding: $font;
+  margin-bottom: 10px;
+
+  a {
+    color: $light-color;
+    font-size: $font;
+    font-weight: $font-weight;
+    text-decoration: none;
+  }
+}
