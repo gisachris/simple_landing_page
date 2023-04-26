@@ -25,7 +25,7 @@ document.addEventListener('scroll',() =>{
 });
 
 window.addEventListener('resize',() => {
-  navigation.style.display = "";
+navigation.style.display = "";
   hamButton.style.display = "";
   xButton.style.display = "";
 });
