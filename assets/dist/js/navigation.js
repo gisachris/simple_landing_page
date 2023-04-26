@@ -19,7 +19,7 @@ xButton.style.display = "none";
 });
 
 document.addEventListener('scroll',() =>{
-  navigation.style.display = "none";
+  navigation.style.display = "";
   hamButton.style.display = "";
   xButton.style.display = "";
 });
