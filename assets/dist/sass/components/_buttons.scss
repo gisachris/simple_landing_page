@@ -3,7 +3,7 @@
 @import '../components/variables';
 @import '../components/typography';
 
-@mixin button-primary($font,$font-weight){
+@mixin button-primary($font,$font-weight) {
   background-color: $primary-color;
   padding: $font;
   margin-bottom: 10px;
@@ -16,7 +16,7 @@
   }
 }
 
-@mixin button-secondary-light($font,$font-weight){
+@mixin button-secondary-light($font,$font-weight) {
   background-color: transparent;
   margin-bottom: 10px;
 
@@ -27,34 +27,33 @@
   }
 }
 
-
 @mixin nav-primary ($font,$column-gap) {
-  
   ul {
-  display: flex;
-  flex-direction: row;
-  column-gap: $column-gap;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: $column-gap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
   }
 
   a {
-  font-family: 'Lato', sans-serif;
-  font-size: $font;
-  color: $dark-color;
-  text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: $font;
+    color: $dark-color;
+    text-decoration: none;
   }
 
   a:hover {
     color: $primary-color-hover;
   }
+
   a:active {
     color: $primary-color;
   }
 }
 
-@mixin button-left-top($font){
+@mixin button-left-top($font) {
   border: 5px solid $primary-color;
   padding: $font;
   padding-top: $font - 0.2rem;
@@ -68,7 +67,7 @@
   }
 }
 
-@mixin button-more($font,$fontweight){
+@mixin button-more($font,$fontweight) {
   font-size: $font;
   font-weight: $fontweight;
   border-radius: 0.2rem;
@@ -80,4 +79,4 @@
   margin-top: 20px;
   margin-bottom: 40px;
   background-color: white;
-}
+}/* stylelint-disable at-rule-no-unknown */

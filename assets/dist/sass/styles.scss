@@ -12,7 +12,7 @@
 @import '../sass/components/placement';
 @import '../sass/components/typography';
 
-//DEFAULTS 
+//DEFAULTS
 html,
 body {
   margin: 0;
@@ -41,8 +41,8 @@ button {
   min-width: 100%;
   width: 100%;
   margin: 0;
-  padding: 0px;
-  box-shadow: 0px 5px 8px $dark-color;
+  padding: 0;
+  box-shadow: 0 5px 8px $dark-color;
 }
 
 header {
@@ -54,7 +54,7 @@ header {
   z-index: 2;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   main {
     width: 100%;
     display: flex;
@@ -62,5 +62,4 @@ header {
     justify-content: center;
     align-items: center;
   }
-  
 }
