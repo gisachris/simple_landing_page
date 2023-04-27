@@ -17,7 +17,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      /* stylelint-enable csstree/validator */
       .toptalentheader {
         /* stylelint-disable csstree/validator */
         @include list-vertical(10px);
