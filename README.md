@@ -63,7 +63,7 @@ i buit this website using the html and css tech stack.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://gisachris.github.io/module-1-capstone-project/]('my capstone project website')
+- https://gisachris.github.io/module-1-capstone-project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,8 +139,8 @@ Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters
 ## 👥 Authors <a name="authors"></a>
 
 Original design idea by Cindy Shin in Behance.
--link to original work:
-[https://www.behance.net/adagio07]('Cindy Shin in Behance.')
+-link to original work: 
+https://www.behance.net/adagio07
 
 changes were made by:
 👤 Gisa Chris
