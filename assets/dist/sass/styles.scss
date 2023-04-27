@@ -5,6 +5,8 @@
 @import '../sass/sections/homepage';
 @import '../sass/sections/mainProgram';
 @import '../sass/sections/toptalent';
+@import '../sass/sections/footer';
+@import '../sass/sections/about';
 //imports components
 @import '../sass/components/variables';
 @import '../sass/components/placement';
@@ -15,7 +17,10 @@ html,
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  min-width: 100%;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: clip;
   height: auto;
   box-sizing: border-box;
 }

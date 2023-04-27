@@ -197,17 +197,17 @@
       margin: 0 auto;
       flex-wrap: wrap;
     .talent1container {
-      display: grid;
-      grid-auto-flow: dense;
-      overflow-y: clip;
+      display: flex;
+      justify-content: center;
+      column-gap: 10px;
       min-width: fit-content;
       width: 33.3%;
       height: fit-content;
-      grid-template-columns: minmax(190px,40%) minmax(100px,60%);
+      // grid-template-columns: minmax(110px,20%) minmax(100px,auto);
 
       .backcube {
         justify-items: flex-end;
-        width: 190px;
+        width: fit-content;
         height: 150px;
         overflow-y: clip;
         margin-bottom: 10px;
@@ -215,10 +215,11 @@
           position: relative; 
           top: 0px;
           left: 0px; 
-          padding: 0; 
-          overflow-y: hidden;
+          overflow-y: clip;
+          overflow-x: clip;
           width: 45px;
-
+          padding: 0 !important;
+          margin: 0 !important;
           img {
             width: 45px;
           }
@@ -226,13 +227,16 @@
 
         .imgdesign {
           position: relative;
-          padding: 0;
-          top: -57px;
+          padding: 0 !important;
+          margin: 0 !important;
+          top: -40px;
           left: 8px;
           height: 100px;
           overflow-x: clip;
+          overflow-y: clip;
+          width: 100px;
           img {
-            width: 210px;
+            width: 150px;
             position: relative;
             right: 58px;
           }
