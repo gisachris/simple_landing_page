@@ -67,3 +67,17 @@
     text-decoration: none;
   }
 }
+
+@mixin button-more($font,$fontweight){
+  font-size: $font;
+  font-weight: $fontweight;
+  border-radius: 0.2rem;
+  border: 0.4px solid $dark-color;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem 4.5rem;
+  color: $dark-color;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: white;
+}
