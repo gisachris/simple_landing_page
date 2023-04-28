@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@mixin d-font($size) {
+  font-size: $size;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@mixin font-1($size) {
+  font-size: $size;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@mixin font-head($size) {
+  font-size: $size;
+  color: $primary-color;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@mixin font-norm($size) {
+  font-size: $size;
+  color: $dark-color;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@mixin font-light($size) {
+  font-size: $size;
+  color: $light-color;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@mixin font-grey($size) {
+  font-size: $size;
+  color: #cacaca;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@mixin bolder($size) {
+  font-size: $size;
+  color: $dark-color;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'COCOGOOSE', sans-serif;
+}

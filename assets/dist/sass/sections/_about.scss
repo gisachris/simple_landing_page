@@ -1,0 +1,421 @@
+//IMPORTS
+//import components
+@import '../components/variables';
+@import '../components/typography';
+@import '../components/placement';
+
+@media screen and (max-width: 768px) {
+  .aboutpage {
+    background-color: $secondary-color;
+    z-index: 0;
+    position: relative;
+
+    .img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgb(255 255 255 / 38%), rgba(233, 233, 233, 0.76));
+      z-index: 1;
+      border: 0;
+    }
+
+    .rest-aboutpage {
+      background-color: $secondary-color;
+      width: 100%;
+      height: fit-content;
+      border: 0;
+
+      .about-text-section {
+        display: block;
+        position: relative;
+        bottom: 60px;
+        box-sizing: border-box;
+        width: 100%;
+        z-index: 1;
+        overflow-x: hidden;
+
+        .about-text-1 {
+          @include font-head(2rem);
+
+          width: 95%;
+          position: relative;
+          left: 15px;
+          font-weight: bold;
+        }
+
+        .about-text-2 {
+          width: 100%;
+
+          @include font-head(4.5rem);
+
+          text-align: center;
+          line-height: 1.1;
+          font-weight: 900;
+          position: relative;
+          left: 15px;
+          margin: 0 auto;
+          color: $primary-color;
+        }
+
+        .outline {
+          border: 2px solid white;
+          background-color: rgb(233, 231, 231);
+          width: 60%;
+          min-width: fit-content;
+          margin: 0 auto;
+          margin-top: 20px;
+
+          .about-paragraph-home-1 {
+            @include font-norm(1rem);
+
+            font-weight: 700;
+            position: relative;
+            left: 15px;
+            width: 80%;
+          }
+        }
+
+        .p2 {
+          width: 210px;
+          text-align: center;
+
+          @include font-norm(0.8rem);
+
+          margin: 0 auto;
+          margin-top: 20px;
+          font-weight: bold;
+
+          span {
+            text-decoration: underline;
+            font-weight: bolder;
+          }
+        }
+      }
+
+      .mission {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        border-bottom: 2px solid grey;
+
+        .blackheader {
+          width: 80%;
+          margin: 0 auto;
+          padding-top: 30px;
+          background-color: transparent;
+          height: fit-content;
+          text-align: center;
+
+          .main-text {
+            @include font-1(1.3rem);
+
+            font-weight: bolder;
+          }
+
+          img {
+            width: 45px;
+            position: relative;
+            bottom: 40px;
+            height: 90px;
+          }
+        }
+
+        .missionstatement {
+          width: 308px;
+
+          @include font-norm(1rem);
+
+          margin: 0 auto;
+          text-align: center;
+          padding-bottom: 30px;
+          position: relative;
+          bottom: 40px;
+        }
+        /* stylelint-disable no-descending-specificity */
+        img {
+          width: 300px;
+          height: auto;
+          margin: 0 auto;
+        }
+      }
+
+      .past {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        // border-bottom: 2px solid grey;
+        .blackheader {
+          width: 80%;
+          margin: 0 auto;
+          padding-top: 30px;
+          background-color: transparent;
+          height: fit-content;
+          text-align: center;
+
+          .main-text {
+            @include font-1(1.3rem);
+
+            font-weight: bolder;
+          }
+
+          img {
+            width: 45px;
+            position: relative;
+            bottom: 40px;
+            height: 90px;
+          }
+        }
+
+        .missionstatement {
+          width: 308px;
+
+          @include font-norm(1rem);
+
+          margin: 0 auto;
+          text-align: center;
+          padding-bottom: 30px;
+          position: relative;
+          bottom: 40px;
+        }
+
+        .past-images {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          figure {
+            width: 80%;
+            overflow-y: clip;
+            overflow-x: clip;
+            height: 100%;
+
+            .img-deep {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .aboutpage {
+    background-color: $secondary-color;
+    z-index: 0;
+    position: relative;
+
+    .img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgb(255 255 255 / 38%), rgba(233, 233, 233, 0.76));
+      z-index: 1;
+      border: 0;
+    }
+
+    .rest-aboutpage {
+      background-color: $secondary-color;
+      width: 100%;
+      height: fit-content;
+      border: 0;
+
+      .about-text-section {
+        display: block;
+        position: relative;
+        bottom: 60px;
+        box-sizing: border-box;
+        width: 100%;
+        z-index: 1;
+        overflow-x: hidden;
+
+        .about-text-1 {
+          @include font-head(2rem);
+
+          width: 95%;
+          position: relative;
+          left: 15px;
+          font-weight: bold;
+        }
+
+        .about-text-2 {
+          width: 100%;
+
+          @include font-head(4.5rem);
+
+          text-align: center;
+          line-height: 1.1;
+          font-weight: 900;
+          position: relative;
+          left: 15px;
+          margin: 0 auto;
+          color: $primary-color;
+        }
+
+        .outline {
+          border: 2px solid white;
+          background-color: rgb(233, 231, 231);
+          width: 60%;
+          min-width: fit-content;
+          margin: 0 auto;
+          margin-top: 20px;
+
+          .about-paragraph-home-1 {
+            @include font-norm(1rem);
+
+            font-weight: 700;
+            position: relative;
+            left: 15px;
+            width: 80%;
+          }
+        }
+
+        .p2 {
+          width: 210px;
+          text-align: center;
+
+          @include font-norm(0.8rem);
+
+          margin: 0 auto;
+          margin-top: 20px;
+          font-weight: bold;
+
+          span {
+            text-decoration: underline;
+            font-weight: bolder;
+          }
+        }
+      }
+
+      .mission {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        border-bottom: 2px solid grey;
+
+        .blackheader {
+          width: 80%;
+          margin: 0 auto;
+          padding-top: 30px;
+          background-color: transparent;
+          height: fit-content;
+          text-align: center;
+
+          .main-text {
+            @include font-1(1.3rem);
+
+            font-weight: bolder;
+          }
+
+          img {
+            width: 45px;
+            position: relative;
+            bottom: 40px;
+            height: 90px;
+          }
+        }
+
+        .missionstatement {
+          width: 308px;
+
+          @include font-norm(1rem);
+
+          margin: 0 auto;
+          text-align: center;
+          padding-bottom: 30px;
+          position: relative;
+          bottom: 40px;
+        }
+
+        img {
+          width: 300px;
+          height: auto;
+          margin: 0 auto;
+        }
+      }
+
+      .past {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        // border-bottom: 2px solid grey;
+        .blackheader {
+          width: 80%;
+          margin: 0 auto;
+          padding-top: 30px;
+          background-color: transparent;
+          height: fit-content;
+          text-align: center;
+
+          .main-text {
+            @include font-1(1.3rem);
+
+            font-weight: bolder;
+          }
+
+          img {
+            width: 45px;
+            position: relative;
+            bottom: 40px;
+            height: 90px;
+          }
+        }
+
+        .missionstatement {
+          width: 308px;
+
+          @include font-norm(1rem);
+
+          margin: 0 auto;
+          text-align: center;
+          padding-bottom: 30px;
+          position: relative;
+          bottom: 40px;
+        }
+
+        .past-images {
+          width: 80%;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          figure {
+            width: 50%;
+            overflow-y: clip;
+            overflow-x: clip;
+            height: 100%;
+
+            .img-deep {
+              width: 100%;
+              height: auto;
+            }
+          }
+
+          .img1 {
+            width: 50%;
+            max-width: 50%;
+            overflow-y: clip;
+            overflow-x: clip;
+            height: 100%;
+
+            .img-deep {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

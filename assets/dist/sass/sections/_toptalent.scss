@@ -1,0 +1,328 @@
+//IMPORTS
+//import components
+@import '../components/variables';
+@import '../components/typography';
+@import '../components/placement';
+@import '../components/buttons';
+
+@media screen and (max-width: 768px) {
+  main {
+    .toptalent {
+      position: relative;
+      z-index: 3;
+      background-color: white;
+      width: 100%;
+      min-width: fit-content;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .toptalentheader {
+        /* stylelint-disable csstree/validator */
+        @include list-vertical(10px);
+
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+
+        .talentheader {
+          @include font-norm(1.7rem);
+
+          margin-top: 50px;
+        }
+
+        .line {
+          position: relative;
+          bottom: 30px;
+          width: 100px;
+          height: 70px;
+        }
+      }
+
+      .tcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        
+      .talent1container {
+        display: grid;
+        width: 100%;
+        min-width: 20%;
+        height: auto;
+        overflow-y: clip;
+        grid-template-columns:  35% 65%;
+        column-gap: 10px;
+
+        .backcube { 
+          justify-items: flex-end;
+          width: 100%;
+          max-width: 188px;
+          min-width: auto;
+          height: auto;
+          max-height: 150px;
+          min-height: auto;
+          overflow-y: clip;
+          margin-bottom: 10px;
+
+          .bkdesign {
+            position: relative;
+            top: 0;
+            left: 0;
+            padding: 0;
+            overflow-y: clip;
+            width: 45px;
+
+            img {
+              width: 45px;
+            }
+          }
+
+          .imgdesign {
+            position: relative;
+            padding: 0;
+            top: -57px;
+            left: 8px;
+            height: 100px;
+            overflow-x: clip;
+
+            img {
+              width: 210px;
+              position: relative;
+              right: 58px;
+            }
+          }
+        }
+
+        .talentdesc {
+          min-width: auto;
+          width: 100%;
+          max-width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 5px;
+          margin-bottom: 20px;
+
+          .talentheading {
+            @include font-norm(2rem);
+
+            font-weight: bold;
+            align-self: flex-start;
+            width: 100%;
+            min-width: 20%;
+          }
+
+          .someinfo {
+            @include font-head(1.3rem);
+
+            width: 100%;
+            min-width: 20%;
+          }
+
+          .talentpar {
+            @include font-norm(1rem);
+
+            width: 100%;
+            min-width: 20%;
+            font-weight: bold;
+            margin-top: 10px;
+          }
+        }
+      }
+
+        .expand {
+          @include button-more(1.5rem,100);
+
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .expand::after {
+          display: block;
+          position: relative;
+          left: 15px;
+          content: '\2228';
+          font-weight: bold;
+          color: #ec5242;
+          transition: transform 0.2s ease-in-out;
+          transition-delay: 0s;
+          transform: scale(0.8);
+          cursor: pointer;
+        }
+
+        .extend {
+          @include button-more(1.5rem,100);
+
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .extend::after {
+          display: block;
+          position: relative;
+          left: 15px;
+          content: '\2227';
+          font-weight: bold;
+          color: #ec5242;
+          transition: transform 0.2s ease-in-out;
+          transition-delay: 0s;
+          transform: scale(0.8);
+          cursor: pointer;
+        }
+
+      .expandables {
+        width: 100%;
+        min-width: 100%;
+        height: 0;
+        overflow-y: clip;
+      }
+    }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) { 
+  main {
+    .toptalent {
+      position: relative;
+      z-index: 3;
+      background-color: white;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow-x: clip;
+
+      .toptalentheader {
+        @include list-vertical(10px);
+
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+
+        .talentheader {
+          @include font-norm(1.7rem);
+
+          margin-top: 50px;
+        }
+
+        .line {
+          position: relative;
+          bottom: 30px;
+          width: 100px;
+          height: 70px;
+        }
+      }
+
+      .tcontainer {
+        display: flex;
+        max-width: 100%;
+        width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        column-gap: 0px;
+
+        .talent1container {
+          display: flex;
+          justify-content: center;
+          column-gap: 10px;
+          min-width: 50%;
+          width: 50%;
+          height: fit-content;
+
+          .backcube {
+            justify-items: flex-end;
+            min-width: fit-content;
+            width: 10%;
+            height: 150px;
+            overflow-y: clip;
+            margin-bottom: 10px;
+
+            .bkdesign {
+              position: relative;
+              top: 0;
+              left: 0;
+              overflow-y: clip;
+              overflow-x: clip;
+              width: 45px;
+              padding: 0 !important;
+              margin: 0 !important;
+
+              img {
+                width: 45px;
+              }
+            }
+
+            .imgdesign {
+              position: relative;
+              padding: 0 !important;
+              margin: 0 !important;
+              top: -40px;
+              left: 8px;
+              height: 100px;
+              overflow-x: clip;
+              overflow-y: clip;
+              width: 100px;
+
+              img {
+                width: 150px;
+                position: relative;
+                right: 58px;
+              }
+            }
+          }
+
+          .talentdesc {
+            min-width: 300px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 20px;
+
+            .talentheading {
+              @include font-norm(2rem);
+
+              font-weight: bold;
+              align-self: flex-start;
+              width: 100%;
+            }
+
+            .someinfo {
+              @include font-head(1rem);
+
+              width: 70%;
+              font-weight: bold;
+            }
+
+            .talentpar {
+              @include font-norm(0.95rem);
+
+              width: 90%;
+              text-align: left;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      .expand {
+        display: none;
+      }
+
+      .extend {
+        display: none;
+      }
+
+      .expandables {
+        display: none;
+      }
+    }
+  }
+}
