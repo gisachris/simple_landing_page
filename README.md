@@ -147,7 +147,7 @@ Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters
 
 <span><b>project presentation</b></span>
 
-
+-https://www.loom.com/share/7be3883887814f309eee71184d86e20d
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
