@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const lawyerArray = document.querySelectorAll('.talent1container');
     const expandables = Array.from(lawyerArray).slice(2);
     for (let j = 0; j < expandables.length; j++ /* eslint-disable-line no-plusplus */) {
-       expandables[j].classList.toggle('expandables');
+      expandables[j].classList.toggle('expandables');
     }
   });
 });
