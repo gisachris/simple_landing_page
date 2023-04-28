@@ -1,6 +1,5 @@
 // selecting the navigation
 const navigation = document.querySelector('.nav-together');
-// const navBar = document.querySelector('.nav-bar');
 const hamButton = document.querySelector('.ham-icon');
 const xButton = document.querySelector('.X-icon');
 

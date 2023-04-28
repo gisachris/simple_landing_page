@@ -137,12 +137,6 @@ Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters
 
 
 ## 👥 Authors <a name="authors"></a>
-
-Original design idea by Cindy Shin in Behance.
--link to original work: 
-https://www.behance.net/adagio07
-
-changes were made by:
 👤 Gisa Chris
 
 -GitHub: https://github.com/gisachris
@@ -185,12 +179,15 @@ If you like this project consider viewing my other profiles and sending job inqu
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all my fellow coding partners
+Original design idea by Cindy Shin in Behance.
+-link to original work: 
+https://www.behance.net/adagio07
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/gisachris/week1_portfolio/blob/new-features/MIT.md) licensed.
+This project is [MIT](https://github.com/gisachris/module-1-capstone-project/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

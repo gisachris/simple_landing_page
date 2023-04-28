@@ -44,19 +44,17 @@
         }
 
         .about-text-2 {
-          width: 80%;
+          width: 100%;
 
           @include font-head(4.5rem);
 
+          text-align: center;
           line-height: 1.1;
           font-weight: 900;
           position: relative;
           left: 15px;
           margin: 0 auto;
-          background-image: url(../../images/act/textdecor.png);
-          background-size: cover;
-          background-clip: text;
-          color: rgba(230, 68, 19, 0.671);
+          color: $primary-color;
         }
 
         .outline {
@@ -247,19 +245,17 @@
         }
 
         .about-text-2 {
-          width: 70%;
+          width: 100%;
 
           @include font-head(4.5rem);
 
+          text-align: center;
           line-height: 1.1;
           font-weight: 900;
           position: relative;
           left: 15px;
           margin: 0 auto;
-          background-image: url(../../images/act/textdecor.png);
-          background-size: cover;
-          background-clip: text;
-          color: rgba(230, 68, 19, 0.671);
+          color: $primary-color;
         }
 
         .outline {
@@ -388,7 +384,8 @@
         }
 
         .past-images {
-          width: 100%;
+          width: 80%;
+          margin: 0 auto;
           display: flex;
           flex-direction: row;
           align-items: center;

@@ -41,27 +41,29 @@
     .service-holder {
       width: 100%;
       height: fit-content;
-      //margin-bottom: 60px;
       @include program-spacing(0,10px);
 
       flex-direction: column;
 
       .service-1 {
         width: 90%;
-        background-color: $light-col-trans;
+        height: 100px;
+        background-color: $dark-color-trans;
 
         @include list-horizontal(10px);
 
         justify-content: center;
         align-items: center;
+        column-gap: 10px;
 
         img {
-          width: 30px;
+          width: 60px;
           margin-left: 10px;
         }
 
         .service-title {
-          @include font-head(1rem);
+          @include font-head(1.2rem);
+          justify-self: start;
 
           font-weight: 600;
         }
@@ -73,20 +75,23 @@
 
       .service-2 {
         width: 90%;
-        background-color: $light-col-trans;
+        height: 100px;
+        background-color: $dark-color-trans;
 
         @include list-horizontal(10px);
 
         justify-content: center;
         align-items: center;
+        column-gap: 10px;
 
         img {
-          width: 30px;
+          width: 60px;
           margin-left: 10px;
         }
 
         .service-title {
-          @include font-head(1rem);
+          @include font-head(1.2rem);
+          justify-self: start;
 
           font-weight: 600;
         }
@@ -98,20 +103,23 @@
 
       .service-3 {
         width: 90%;
-        background-color: $light-col-trans;
+        height: 100px;
+        background-color: $dark-color-trans;
 
         @include list-horizontal(10px);
 
         justify-content: center;
         align-items: center;
+        column-gap: 10px;
 
         img {
-          width: 30px;
+          width: 60px;
           margin-left: 10px;
         }
 
         .service-title {
-          @include font-head(1rem);
+          @include font-head(1.2rem);
+          justify-self: flex-start;
 
           font-weight: 600;
         }
@@ -123,20 +131,23 @@
 
       .service-4 {
         width: 90%;
-        background-color: $light-col-trans;
+        height: 100px;
+        background-color: $dark-color-trans;
 
         @include list-horizontal(10px);
 
         justify-content: center;
         align-items: center;
+        column-gap: 10px;
 
         img {
-          width: 30px;
+          width: 60px;
           margin-left: 10px;
         }
 
         .service-title {
-          @include font-head(1rem);
+          @include font-head(1.2rem);
+          justify-self: flex-start;
 
           font-weight: 600;
         }
@@ -148,21 +159,24 @@
 
       .service-5 {
         width: 90%;
-        background-color: $light-col-trans;
+        height: 100px;
+        background-color: $dark-color-trans;
 
         @include list-horizontal(10px);
 
         margin-bottom: 60px;
         justify-content: center;
         align-items: center;
+        column-gap: 10px;
 
         img {
-          width: 30px;
+          width: 60px;
           margin-left: 10px;
         }
 
         .service-title {
-          @include font-head(1rem);
+          @include font-head(1.2rem);
+          justify-self: flex-start;
 
           font-weight: 600;
         }
@@ -238,7 +252,7 @@
           width: 40%;
           height: 100%;
           padding: 10px;
-          background-color: $light-col-trans;
+          background-color: $dark-color-trans;
 
           img {
             width: 60px;
@@ -266,7 +280,7 @@
           width: 40%;
           height: 100%;
           padding: 10px;
-          background-color: $light-col-trans;
+          background-color: $dark-color-trans;
 
           img {
             width: 60px;
@@ -294,7 +308,7 @@
           width: 40%;
           height: 100%;
           padding: 10px;
-          background-color: $light-col-trans;
+          background-color: $dark-color-trans;
 
           img {
             width: 60px;
@@ -322,7 +336,7 @@
           width: 40%;
           height: 100%;
           padding: 10px;
-          background-color: $light-col-trans;
+          background-color: $dark-color-trans;
 
           img {
             width: 60px;
@@ -350,7 +364,7 @@
           width: 40%;
           height: 100%;
           padding: 10px;
-          background-color: $light-col-trans;
+          background-color: $dark-color-trans;
 
           img {
             width: 60px;
@@ -367,6 +381,10 @@
             @include font-light(1rem);
           }
         }
+
+        section[class*='service']:hover {
+          border: 2px solid white;
+        }
       }
 
       .button-services {
@@ -376,8 +394,9 @@
         width: fit-content;
         align-self: center;
         margin-bottom: 100px;
+        padding-top: 35px;
 
-        a .but-text {
+        .but-text {
           text-decoration: underline;
           cursor: pointer;
         }

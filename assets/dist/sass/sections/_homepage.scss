@@ -64,10 +64,15 @@
           @include font-norm(1rem);
 
           font-weight: 700;
-          min-width: 100%;
-          max-width: 70ch;
-          position: relative;
-          left: 15px;
+          min-width: 50px;
+          max-width: 55ch;
+          height: fit-content;
+          min-height: 50px;
+          padding: 10px;
+          border: 2px solid white;
+          background-color: $secondary-color-nec;   
+          margin-left: 15px;
+          margin-right: 5px;
         }
       }
 
@@ -85,9 +90,15 @@
         }
 
         .bottom-paragraph {
-          @include font-norm(1.5rem);
+          @include bolder(1.5rem);
 
-          font-weight: 900;
+          font-weight: bolder;
+        }
+
+        .bot-bot {
+          @include font-norm(1rem);
+
+          font-weight: bold;
           padding-bottom: 30px;
         }
       }
@@ -184,7 +195,7 @@
         .pat-11 {
           display: block;
           position: relative;
-          transform: translate(516px, -82px) rotate(210deg);
+          transform: translate(723px, 68px) rotate(210deg);
           opacity: 0.4;
           width: 85px;
           z-index: 0;
@@ -192,6 +203,14 @@
 
         .pat-12 {
           display: none;
+        }
+
+        .pat-13 {
+          display: block;
+          position: relative;
+          transform: translate(478px, -197px) rotate(210deg);
+          opacity: 1;
+          width: 85px;
         }
       }
     }
@@ -239,7 +258,6 @@
         }
 
         .home-text-2 {
-          //min-width: 100%;
           max-width: 15ch;
 
           @include font-head(4.5rem);
@@ -259,10 +277,15 @@
           @include font-norm(1rem);
 
           font-weight: 700;
-          min-width: 100%;
+          min-width: fit-content;
+          width: fit-content;
           max-width: 70ch;
-          position: relative;
-          left: 15px;
+          height: fit-content;
+          min-height: 50px;
+          padding: 10px;
+          border: 2px solid white;
+          background-color: $secondary-color-nec;   
+          margin-left: 15px;
         }
       }
 
@@ -280,9 +303,15 @@
         }
 
         .bottom-paragraph {
-          @include font-norm(1.5rem);
+          @include bolder(1.5rem);
 
-          font-weight: 900;
+          font-weight: bolder;
+        }
+
+        .bot-bot {
+          @include font-norm(1rem);
+
+          font-weight: bold;
           padding-bottom: 30px;
         }
       }
@@ -402,6 +431,14 @@
           opacity: 0.4;
           width: 85px;
           z-index: 0;
+        }
+
+        .pat-13 {
+          display: block;
+          position: relative;
+          transform: translate(970px, -415px) rotate(210deg);
+          opacity: 1;
+          width: 115px;
         }
       }
     }
