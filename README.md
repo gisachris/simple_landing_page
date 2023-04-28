@@ -166,7 +166,7 @@ Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page: https://github.com/gisachris/portfolio_week1/issues
+Feel free to check the issues page: https://github.com/gisachris/module-1-capstone-project/issues
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
