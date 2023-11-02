@@ -63,7 +63,7 @@ i buit this website using the html and css tech stack.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://gisachris.github.io/module-1-capstone-project/
+- [simple landing page](https://simple-landing-page.pages.dev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
